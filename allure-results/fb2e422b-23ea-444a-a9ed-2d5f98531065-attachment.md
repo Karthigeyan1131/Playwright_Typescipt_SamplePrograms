@@ -1,0 +1,780 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - link "x" [ref=e3] [cursor=pointer]:
+    - /url: "javascript:"
+  - link "" [ref=e4] [cursor=pointer]:
+    - /url: "#"
+    - generic [ref=e5]: 
+  - list [ref=e11]:
+    - listitem [ref=e12]:
+      - link " FAQ" [ref=e13] [cursor=pointer]:
+        - /url: /faq
+        - generic [ref=e14]: 
+        - text: FAQ
+    - listitem [ref=e15]:
+      - link " Contact Us" [ref=e16] [cursor=pointer]:
+        - /url: /contact-us
+        - generic [ref=e17]: 
+        - text: Contact Us
+    - listitem [ref=e18]:
+      - link " Sign In" [ref=e19] [cursor=pointer]:
+        - /url: /login
+        - generic [ref=e20]: 
+        - text: Sign In
+  - navigation [ref=e22]:
+    - generic [ref=e23]:
+      - list [ref=e25]:
+        - listitem [ref=e26]:
+          - link " 0" [ref=e27] [cursor=pointer]:
+            - /url: javascript:void(0)
+            - generic [ref=e28]: 
+            - generic [ref=e29]: "0"
+        - listitem [ref=e30]:
+          - link "" [ref=e31] [cursor=pointer]:
+            - /url: javascript:void(0)
+            - generic [ref=e32]: 
+          - text: 
+      - link [ref=e34] [cursor=pointer]:
+        - /url: /
+      - list [ref=e36]:
+        - listitem [ref=e37]:
+          - link "Children Books" [ref=e38] [cursor=pointer]:
+            - /url: /children-books
+        - listitem [ref=e39]:
+          - link "Teen Fiction" [ref=e40] [cursor=pointer]:
+            - /url: /teen-fiction
+        - listitem [ref=e41]:
+          - link "Fiction" [ref=e42] [cursor=pointer]:
+            - /url: /fiction
+        - listitem [ref=e43]:
+          - link "Bestselling Authors" [ref=e44] [cursor=pointer]:
+            - /url: /best-selling-authors
+        - listitem [ref=e45]:
+          - link "New Books" [ref=e46] [cursor=pointer]:
+            - /url: /new-books
+        - listitem [ref=e47]:
+          - link "All Genres" [ref=e48] [cursor=pointer]:
+            - /url: /books
+  - generic [ref=e50]:
+    - generic [ref=e51]:
+      - generic [ref=e53]:
+        - heading "Category Clear Filter" [level=4] [ref=e54]:
+          - text: Category
+          - generic [ref=e55] [cursor=pointer]: Clear Filter
+        - list [ref=e56]:
+          - listitem [ref=e57]:
+            - link "Children Books" [ref=e58] [cursor=pointer]:
+              - /url: "javascript:"
+          - listitem [ref=e59]:
+            - link "Teen Fiction" [ref=e60] [cursor=pointer]:
+              - /url: "javascript:"
+          - listitem [ref=e61]:
+            - link "Fiction" [ref=e62] [cursor=pointer]:
+              - /url: "javascript:"
+          - listitem [ref=e63]:
+            - link "Non - Fiction" [ref=e64] [cursor=pointer]:
+              - /url: "javascript:"
+          - listitem [ref=e65]:
+            - link "New Books" [ref=e66] [cursor=pointer]:
+              - /url: "javascript:"
+          - listitem [ref=e67]:
+            - link "Must Read" [ref=e68] [cursor=pointer]:
+              - /url: "javascript:"
+          - listitem [ref=e69]:
+            - link "Books On Offer" [ref=e70] [cursor=pointer]:
+              - /url: "javascript:"
+          - listitem [ref=e71]:
+            - link "Editor's Pick" [ref=e72] [cursor=pointer]:
+              - /url: "javascript:"
+          - listitem [ref=e73]:
+            - link "Biographies, Autobiographies & Memories" [ref=e74] [cursor=pointer]:
+              - /url: "javascript:"
+          - listitem [ref=e75]:
+            - link "Business & Investing" [ref=e76] [cursor=pointer]:
+              - /url: "javascript:"
+          - listitem [ref=e77]:
+            - link "Cooking, Food & Wine" [ref=e78] [cursor=pointer]:
+              - /url: "javascript:"
+          - listitem [ref=e79]:
+            - link "History & Politics" [ref=e80] [cursor=pointer]:
+              - /url: "javascript:"
+          - listitem [ref=e81]:
+            - link "Sports" [ref=e82] [cursor=pointer]:
+              - /url: "javascript:"
+          - listitem [ref=e83]:
+            - link "Bestselling Authors" [ref=e84] [cursor=pointer]:
+              - /url: "javascript:"
+      - generic [ref=e86]:
+        - heading "Weight Clear Filter" [level=4] [ref=e87]:
+          - text: Weight
+          - generic [ref=e88] [cursor=pointer]: Clear Filter
+        - list [ref=e89]:
+          - listitem [ref=e90]:
+            - link "Under 100gm" [ref=e91] [cursor=pointer]:
+              - /url: "javascript:"
+          - listitem [ref=e92]:
+            - link "100 - 200gm" [ref=e93] [cursor=pointer]:
+              - /url: "javascript:"
+          - listitem [ref=e94]:
+            - link "200 - 500gm" [ref=e95] [cursor=pointer]:
+              - /url: "javascript:"
+          - listitem [ref=e96]:
+            - link "Over 500gm" [ref=e97] [cursor=pointer]:
+              - /url: "javascript:"
+      - generic [ref=e99]:
+        - heading "Price Clear Filter" [level=4] [ref=e100]:
+          - text: Price
+          - generic [ref=e101] [cursor=pointer]: Clear Filter
+        - list [ref=e102]:
+          - listitem [ref=e103]:
+            - link "Under Rs 100" [ref=e104] [cursor=pointer]:
+              - /url: "javascript:"
+          - listitem [ref=e105]:
+            - link "101 - 200" [ref=e106] [cursor=pointer]:
+              - /url: "javascript:"
+          - listitem [ref=e107]:
+            - link "201 - 500" [ref=e108] [cursor=pointer]:
+              - /url: "javascript:"
+          - listitem [ref=e109]:
+            - link "Over 500" [ref=e110] [cursor=pointer]:
+              - /url: "javascript:"
+      - generic [ref=e112]:
+        - heading "Collection Clear Filter" [level=4] [ref=e113]:
+          - text: Collection
+          - generic [ref=e114] [cursor=pointer]: Clear Filter
+        - list [ref=e115]:
+          - listitem [ref=e116]:
+            - link "Premium Books" [ref=e117] [cursor=pointer]:
+              - /url: "javascript:"
+          - listitem [ref=e118]:
+            - link "Classic Books" [ref=e119] [cursor=pointer]:
+              - /url: "javascript:"
+          - listitem [ref=e120]:
+            - link "Standard Books" [ref=e121] [cursor=pointer]:
+              - /url: "javascript:"
+          - listitem [ref=e122]:
+            - link "New Books" [ref=e123] [cursor=pointer]:
+              - /url: "javascript:"
+      - generic [ref=e125]:
+        - heading "Author Clear Filter" [level=4] [ref=e126]:
+          - text: Author
+          - generic [ref=e127] [cursor=pointer]: Clear Filter
+        - list [ref=e128]:
+          - listitem [ref=e129]:
+            - checkbox [ref=e130]
+            - generic [ref=e131] [cursor=pointer]: James Patterson
+          - listitem [ref=e132]:
+            - checkbox [ref=e133]
+            - generic [ref=e134] [cursor=pointer]: Daniel Steel
+          - listitem [ref=e135]:
+            - checkbox [ref=e136]
+            - generic [ref=e137] [cursor=pointer]: Gillian Flynn
+          - listitem [ref=e138]:
+            - checkbox [ref=e139]
+            - generic [ref=e140] [cursor=pointer]: Jodi Picoult
+          - listitem [ref=e141]:
+            - checkbox [ref=e142]
+            - generic [ref=e143] [cursor=pointer]: Lee Child
+          - listitem [ref=e144]:
+            - checkbox [ref=e145]
+            - generic [ref=e146] [cursor=pointer]: Jane Austen
+          - listitem [ref=e147]:
+            - checkbox [ref=e148]
+            - generic [ref=e149] [cursor=pointer]: Charles Dickens
+          - listitem [ref=e150]:
+            - checkbox [ref=e151]
+            - generic [ref=e152] [cursor=pointer]: Martina Cole
+          - listitem [ref=e153]:
+            - checkbox [ref=e154]
+            - generic [ref=e155] [cursor=pointer]: Karen Rose
+          - listitem [ref=e156]:
+            - checkbox [ref=e157]
+            - generic [ref=e158] [cursor=pointer]: Wilbur Smith
+          - listitem [ref=e159]:
+            - checkbox [ref=e160]
+            - generic [ref=e161] [cursor=pointer]: Stieg Larsson
+          - textbox "Author" [ref=e162]
+    - generic [ref=e164]:
+      - heading "Books" [level=1] [ref=e166]
+      - combobox [ref=e168] [cursor=pointer]:
+        - option "Relevance" [selected]
+        - 'option "Price: Low to High"'
+        - 'option "Price: High to Low"'
+        - 'option "Weight: Low to High"'
+        - 'option "Weight: High to Low"'
+      - generic:
+        - generic [ref=e172] [cursor=pointer]:
+          - img "Woeful Second World War-by-Terry Deary" [ref=e174]
+          - heading "Woeful Second World War" [level=3] [ref=e175]
+          - generic [ref=e177]:
+            - generic [ref=e178]:
+              - text: 108 gm
+              - paragraph [ref=e179]:
+                - text: ₹ 75
+                - generic [ref=e180]: ₹ 350
+            - link "Add to Cart" [ref=e182]:
+              - /url: javascript:;
+              - img "Add to Cart" [ref=e183]
+        - generic [ref=e186] [cursor=pointer]:
+          - 'img "Out of the Sun: Essays at the Crossroads of Race-by-Esi Edugyan" [ref=e188]'
+          - 'heading "Out of the Sun: Essays at the Crossroads of Race" [level=3] [ref=e189]'
+          - generic [ref=e191]:
+            - generic [ref=e192]:
+              - text: 193 gm
+              - paragraph [ref=e193]:
+                - text: ₹ 149
+                - generic [ref=e194]: ₹ 399
+            - link "Add to Cart" [ref=e196]:
+              - /url: javascript:;
+              - img "Add to Cart" [ref=e197]
+        - generic [ref=e200] [cursor=pointer]:
+          - img "The Boar Hunt-by-V.M. Devadas" [ref=e202]
+          - heading "The Boar Hunt" [level=3] [ref=e203]
+          - generic [ref=e205]:
+            - generic [ref=e206]:
+              - text: 146 gm
+              - paragraph [ref=e207]:
+                - text: ₹ 99
+                - generic [ref=e208]: ₹ 350
+            - link "Add to Cart" [ref=e210]:
+              - /url: javascript:;
+              - img "Add to Cart" [ref=e211]
+        - generic [ref=e214] [cursor=pointer]:
+          - img "Auntie Poldi and the Lost Madonna-by- Mario Giordano" [ref=e216]
+          - heading "Auntie Poldi and the Lost Madonna" [level=3] [ref=e217]
+          - generic [ref=e219]:
+            - generic [ref=e220]:
+              - text: 252 gm
+              - paragraph [ref=e221]:
+                - text: ₹ 149
+                - generic [ref=e222]: ₹ 450
+            - link "Add to Cart" [ref=e224]:
+              - /url: javascript:;
+              - img "Add to Cart" [ref=e225]
+        - generic [ref=e228] [cursor=pointer]:
+          - img "Let The Old Dreams Die-by-John Ajvide Lindqvist" [ref=e230]
+          - heading "Let The Old Dreams Die" [level=3] [ref=e231]
+          - generic [ref=e233]:
+            - generic [ref=e234]:
+              - text: 374 gm
+              - paragraph [ref=e235]:
+                - text: ₹ 199
+                - generic [ref=e236]: ₹ 450
+            - link "Add to Cart" [ref=e238]:
+              - /url: javascript:;
+              - img "Add to Cart" [ref=e239]
+        - generic [ref=e242] [cursor=pointer]:
+          - 'img "Nathaniel''s Nutmeg: How One Man''s Courage Changed the Course of History -by-Giles Milton" [ref=e244]'
+          - 'heading "Nathaniel''s Nutmeg: How One Man''s Courage Changed the Course of History" [level=3] [ref=e245]'
+          - generic [ref=e247]:
+            - generic [ref=e248]:
+              - text: 352 gm
+              - paragraph [ref=e249]:
+                - text: ₹ 175
+                - generic [ref=e250]: ₹ 450
+            - link "Add to Cart" [ref=e252]:
+              - /url: javascript:;
+              - img "Add to Cart" [ref=e253]
+        - generic [ref=e256] [cursor=pointer]:
+          - img "The Queens Of Sarmiento Park -by-Camila Sosa Villada, Kit Maude" [ref=e258]
+          - heading "The Queens Of Sarmiento Park" [level=3] [ref=e259]
+          - generic [ref=e261]:
+            - generic [ref=e262]:
+              - text: 186 gm
+              - paragraph [ref=e263]:
+                - text: ₹ 125
+                - generic [ref=e264]: ₹ 350
+            - link "Add to Cart" [ref=e266]:
+              - /url: javascript:;
+              - img "Add to Cart" [ref=e267]
+        - generic [ref=e270] [cursor=pointer]:
+          - 'img "Monolithic Undertow: In Search of Sonic Oblivion -by-Harry Sword" [ref=e272]'
+          - 'heading "Monolithic Undertow: In Search of Sonic Oblivion" [level=3] [ref=e273]'
+          - generic [ref=e275]:
+            - generic [ref=e276]:
+              - text: 346 gm
+              - paragraph [ref=e277]:
+                - text: ₹ 175
+                - generic [ref=e278]: ₹ 450
+            - link "Add to Cart" [ref=e280]:
+              - /url: javascript:;
+              - img "Add to Cart" [ref=e281]
+        - generic [ref=e284] [cursor=pointer]:
+          - 'img "Raise Your SQ: Transform Your Life with Spiritual Intelligence-by-Annie Ridout" [ref=e286]'
+          - 'heading "Raise Your SQ: Transform Your Life with Spiritual Intelligence" [level=3] [ref=e287]'
+          - generic [ref=e289]:
+            - generic [ref=e290]:
+              - text: 256 gm
+              - paragraph [ref=e291]:
+                - text: ₹ 175
+                - generic [ref=e292]: ₹ 450
+            - link "Add to Cart" [ref=e294]:
+              - /url: javascript:;
+              - img "Add to Cart" [ref=e295]
+        - generic [ref=e298] [cursor=pointer]:
+          - img "The Last Tale of the Flower Bride-by-Roshani Chokshi" [ref=e300]
+          - heading "The Last Tale of the Flower Bride" [level=3] [ref=e301]
+          - generic [ref=e303]:
+            - generic [ref=e304]:
+              - text: 222 gm
+              - paragraph [ref=e305]:
+                - text: ₹ 125
+                - generic [ref=e306]: ₹ 350
+            - link "Add to Cart" [ref=e308]:
+              - /url: javascript:;
+              - img "Add to Cart" [ref=e309]
+        - generic [ref=e312] [cursor=pointer]:
+          - img "The Raven's Head-by-Karen Maitland" [ref=e314]
+          - heading "The Raven's Head" [level=3] [ref=e315]
+          - generic [ref=e317]:
+            - generic [ref=e318]:
+              - text: 363 gm
+              - paragraph [ref=e319]:
+                - text: ₹ 175
+                - generic [ref=e320]: ₹ 450
+            - link "Add to Cart" [ref=e322]:
+              - /url: javascript:;
+              - img "Add to Cart" [ref=e323]
+        - generic [ref=e326] [cursor=pointer]:
+          - 'img "The Story of English: How the English language conquered the world -by-Philip Gooden" [ref=e328]'
+          - 'heading "The Story of English: How the English language conquered the world" [level=3] [ref=e329]'
+          - generic [ref=e331]:
+            - generic [ref=e332]:
+              - text: 218 gm
+              - paragraph [ref=e333]:
+                - text: ₹ 125
+                - generic [ref=e334]: ₹ 350
+            - link "Add to Cart" [ref=e336]:
+              - /url: javascript:;
+              - img "Add to Cart" [ref=e337]
+        - generic [ref=e340] [cursor=pointer]:
+          - img "The Heart Goes Last-by-Margaret Atwood" [ref=e342]
+          - heading "The Heart Goes Last" [level=3] [ref=e343]
+          - generic [ref=e345]:
+            - generic [ref=e346]:
+              - text: 350 gm
+              - paragraph [ref=e347]:
+                - text: ₹ 175
+                - generic [ref=e348]: ₹ 499
+            - link "Add to Cart" [ref=e350]:
+              - /url: javascript:;
+              - img "Add to Cart" [ref=e351]
+        - generic [ref=e354] [cursor=pointer]:
+          - img "Don’t Read Poetry-by-Stephanie Burt" [ref=e356]
+          - heading "Don’t Read Poetry" [level=3] [ref=e357]
+          - generic [ref=e359]:
+            - generic [ref=e360]:
+              - text: 288 gm
+              - paragraph [ref=e361]:
+                - text: ₹ 149
+                - generic [ref=e362]: ₹ 450
+            - link "Add to Cart" [ref=e364]:
+              - /url: javascript:;
+              - img "Add to Cart" [ref=e365]
+        - generic [ref=e368] [cursor=pointer]:
+          - img "Christmas at Cold Comfort Farm-by-Stella Gibbons" [ref=e370]
+          - heading "Christmas at Cold Comfort Farm" [level=3] [ref=e371]
+          - generic [ref=e373]:
+            - generic [ref=e374]:
+              - text: 225 gm
+              - paragraph [ref=e375]:
+                - text: ₹ 125
+                - generic [ref=e376]: ₹ 350
+            - link "Add to Cart" [ref=e378]:
+              - /url: javascript:;
+              - img "Add to Cart" [ref=e379]
+        - generic [ref=e382] [cursor=pointer]:
+          - img "Love Virtually -by-Daniel Glattauer" [ref=e384]
+          - heading "Love Virtually" [level=3] [ref=e385]
+          - generic [ref=e387]:
+            - generic [ref=e388]:
+              - text: 210 gm
+              - paragraph [ref=e389]:
+                - text: ₹ 125
+                - generic [ref=e390]: ₹ 350
+            - link "Add to Cart" [ref=e392]:
+              - /url: javascript:;
+              - img "Add to Cart" [ref=e393]
+        - generic [ref=e396] [cursor=pointer]:
+          - img "Slow Horses-by-Mick Herron" [ref=e398]
+          - heading "Slow Horses" [level=3] [ref=e399]
+          - generic [ref=e401]:
+            - generic [ref=e402]:
+              - text: 300 gm
+              - paragraph [ref=e403]:
+                - text: ₹ 149
+                - generic [ref=e404]: ₹ 450
+            - link "Add to Cart" [ref=e406]:
+              - /url: javascript:;
+              - img "Add to Cart" [ref=e407]
+        - generic [ref=e410] [cursor=pointer]:
+          - img "Heaven and Hell-by-Jon Kalman Stefansson" [ref=e412]
+          - heading "Heaven and Hell" [level=3] [ref=e413]
+          - generic [ref=e415]:
+            - generic [ref=e416]:
+              - text: 164 gm
+              - paragraph [ref=e417]:
+                - text: ₹ 99
+                - generic [ref=e418]: ₹ 350
+            - link "Add to Cart" [ref=e420]:
+              - /url: javascript:;
+              - img "Add to Cart" [ref=e421]
+        - generic [ref=e424] [cursor=pointer]:
+          - img "Dead Lions-by-Mick Herron" [ref=e426]
+          - heading "Dead Lions" [level=3] [ref=e427]
+          - generic [ref=e429]:
+            - generic [ref=e430]:
+              - text: 230 gm
+              - paragraph [ref=e431]:
+                - text: ₹ 125
+                - generic [ref=e432]: ₹ 350
+            - link "Add to Cart" [ref=e434]:
+              - /url: javascript:;
+              - img "Add to Cart" [ref=e435]
+        - generic [ref=e438] [cursor=pointer]:
+          - img "When Shadows Fall-by- 4 Reviews Rated 0" [ref=e440]
+          - heading "When Shadows Fall" [level=3] [ref=e441]
+          - generic [ref=e443]:
+            - generic [ref=e444]:
+              - text: 268 gm
+              - paragraph [ref=e445]:
+                - text: ₹ 149
+                - generic [ref=e446]: ₹ 450
+            - link "Add to Cart" [ref=e448]:
+              - /url: javascript:;
+              - img "Add to Cart" [ref=e449]
+        - generic [ref=e452] [cursor=pointer]:
+          - img "An Equal Stillness-by- Francesca Kay" [ref=e454]
+          - heading "An Equal Stillness" [level=3] [ref=e455]
+          - generic [ref=e457]:
+            - generic [ref=e458]:
+              - text: 244 gm
+              - paragraph [ref=e459]:
+                - text: ₹ 125
+                - generic [ref=e460]: ₹ 350
+            - link "Add to Cart" [ref=e462]:
+              - /url: javascript:;
+              - img "Add to Cart" [ref=e463]
+        - generic [ref=e466] [cursor=pointer]:
+          - img "Black Beauty-by- Anna Sewell" [ref=e468]
+          - heading "Black Beauty" [level=3] [ref=e469]
+          - generic [ref=e471]:
+            - generic [ref=e472]:
+              - text: 260 gm
+              - paragraph [ref=e473]:
+                - text: ₹ 149
+                - generic [ref=e474]: ₹ 450
+            - link "Add to Cart" [ref=e476]:
+              - /url: javascript:;
+              - img "Add to Cart" [ref=e477]
+        - generic [ref=e480] [cursor=pointer]:
+          - img "The Last Kingdom-by-Steve Berry" [ref=e482]
+          - heading "The Last Kingdom" [level=3] [ref=e483]
+          - generic [ref=e485]:
+            - generic [ref=e486]:
+              - text: 328 gm
+              - paragraph [ref=e487]:
+                - text: ₹ 175
+                - generic [ref=e488]: ₹ 450
+            - link "Add to Cart" [ref=e490]:
+              - /url: javascript:;
+              - img "Add to Cart" [ref=e491]
+        - generic [ref=e494] [cursor=pointer]:
+          - 'img "Every Parent Should Read This Book: Eleven lessons for raising a 21st-century teenager-by-Ben Brooks" [ref=e496]'
+          - 'heading "Every Parent Should Read This Book: Eleven lessons for raising a 21st-century teenager" [level=3] [ref=e497]'
+          - generic [ref=e499]:
+            - generic [ref=e500]:
+              - text: 222 gm
+              - paragraph [ref=e501]:
+                - text: ₹ 149
+                - generic [ref=e502]: ₹ 450
+            - link "Add to Cart" [ref=e504]:
+              - /url: javascript:;
+              - img "Add to Cart" [ref=e505]
+        - generic [ref=e508] [cursor=pointer]:
+          - 'img "SEAL Target Geronimo: The Inside Story of the Mission to Kill Osama Bin Laden -by-Chuck Pfarrer" [ref=e510]'
+          - 'heading "SEAL Target Geronimo: The Inside Story of the Mission to Kill Osama Bin Laden" [level=3] [ref=e511]'
+          - generic [ref=e513]:
+            - generic [ref=e514]:
+              - text: 252 gm
+              - paragraph [ref=e515]:
+                - text: ₹ 149
+                - generic [ref=e516]: ₹ 399
+            - link "Add to Cart" [ref=e518]:
+              - /url: javascript:;
+              - img "Add to Cart" [ref=e519]
+        - generic [ref=e522] [cursor=pointer]:
+          - img "The Muse-by-Jessie Burton" [ref=e524]
+          - heading "The Muse" [level=3] [ref=e525]
+          - generic [ref=e527]:
+            - generic [ref=e528]:
+              - text: 330 gm
+              - paragraph [ref=e529]:
+                - text: ₹ 175
+                - generic [ref=e530]: ₹ 450
+            - link "Add to Cart" [ref=e532]:
+              - /url: javascript:;
+              - img "Add to Cart" [ref=e533]
+        - generic [ref=e536] [cursor=pointer]:
+          - img "The Right Way to Teach Chess to Kids -by-Richard James" [ref=e538]
+          - heading "The Right Way to Teach Chess to Kids" [level=3] [ref=e539]
+          - generic [ref=e541]:
+            - generic [ref=e542]:
+              - text: 206 gm
+              - paragraph [ref=e543]:
+                - text: ₹ 149
+                - generic [ref=e544]: ₹ 399
+            - link "Add to Cart" [ref=e546]:
+              - /url: javascript:;
+              - img "Add to Cart" [ref=e547]
+        - generic [ref=e550] [cursor=pointer]:
+          - img "Royal Escape-by-Georgette Heyer" [ref=e552]
+          - heading "Royal Escape" [level=3] [ref=e553]
+          - generic [ref=e555]:
+            - generic [ref=e556]:
+              - text: 280 gm
+              - paragraph [ref=e557]:
+                - text: ₹ 125
+                - generic [ref=e558]: ₹ 399
+            - link "Add to Cart" [ref=e560]:
+              - /url: javascript:;
+              - img "Add to Cart" [ref=e561]
+        - generic [ref=e564] [cursor=pointer]:
+          - img "Roads to Berlin-by- Cees Nooteboom" [ref=e566]
+          - heading "Roads to Berlin" [level=3] [ref=e567]
+          - generic [ref=e569]:
+            - generic [ref=e570]:
+              - text: 254 gm
+              - paragraph [ref=e571]:
+                - text: ₹ 125
+                - generic [ref=e572]: ₹ 399
+            - link "Add to Cart" [ref=e574]:
+              - /url: javascript:;
+              - img "Add to Cart" [ref=e575]
+        - generic [ref=e578] [cursor=pointer]:
+          - img "King Lear-by-William Shakespeare" [ref=e580]
+          - heading "King Lear" [level=3] [ref=e581]
+          - generic [ref=e583]:
+            - generic [ref=e584]:
+              - text: 92 gm
+              - paragraph [ref=e585]:
+                - text: ₹ 75
+                - generic [ref=e586]: ₹ 299
+            - link "Add to Cart" [ref=e588]:
+              - /url: javascript:;
+              - img "Add to Cart" [ref=e589]
+        - generic [ref=e592] [cursor=pointer]:
+          - 'img "Queens of a Fallen World: The Lost Women of Augustine s Confessions -by-Kate Cooper" [ref=e594]'
+          - 'heading "Queens of a Fallen World: The Lost Women of Augustine s Confessions" [level=3] [ref=e595]'
+          - generic [ref=e597]:
+            - generic [ref=e598]:
+              - text: 220 gm
+              - paragraph [ref=e599]:
+                - text: ₹ 125
+                - generic [ref=e600]: ₹ 350
+            - link "Add to Cart" [ref=e602]:
+              - /url: javascript:;
+              - img "Add to Cart" [ref=e603]
+        - generic [ref=e606] [cursor=pointer]:
+          - img "Who Wants to be a Millionaire - The Quiz Book-by-Michael" [ref=e608]
+          - heading "Who Wants to be a Millionaire - The Quiz Book" [level=3] [ref=e609]
+          - generic [ref=e611]:
+            - generic [ref=e612]:
+              - text: 338 gm
+              - paragraph [ref=e613]:
+                - text: ₹ 199
+                - generic [ref=e614]: ₹ 450
+            - link "Add to Cart" [ref=e616]:
+              - /url: javascript:;
+              - img "Add to Cart" [ref=e617]
+        - generic [ref=e620] [cursor=pointer]:
+          - img "Tess of the D'Urbervilles-by-Thomas Hardy" [ref=e622]
+          - heading "Tess of the D'Urbervilles" [level=3] [ref=e623]
+          - generic [ref=e625]:
+            - generic [ref=e626]:
+              - text: 478 gm
+              - paragraph [ref=e627]:
+                - text: ₹ 225
+                - generic [ref=e628]: ₹ 599
+            - link "Add to Cart" [ref=e630]:
+              - /url: javascript:;
+              - img "Add to Cart" [ref=e631]
+        - generic [ref=e634] [cursor=pointer]:
+          - img "The Circus Train-by-Amita Parikh" [ref=e636]
+          - heading "The Circus Train" [level=3] [ref=e637]
+          - generic [ref=e639]:
+            - generic [ref=e640]:
+              - text: 292 gm
+              - paragraph [ref=e641]:
+                - text: ₹ 175
+                - generic [ref=e642]: ₹ 450
+            - link "Add to Cart" [ref=e644]:
+              - /url: javascript:;
+              - img "Add to Cart" [ref=e645]
+        - generic [ref=e648] [cursor=pointer]:
+          - img "The Ink Black Heart -by- Robert Galbraith" [ref=e650]
+          - heading "The Ink Black Heart" [level=3] [ref=e651]
+          - generic [ref=e653]:
+            - generic [ref=e654]:
+              - text: 824 gm
+              - paragraph [ref=e655]:
+                - text: ₹ 399
+                - generic [ref=e656]: ₹ 999
+            - link "Add to Cart" [ref=e658]:
+              - /url: javascript:;
+              - img "Add to Cart" [ref=e659]
+        - generic [ref=e662] [cursor=pointer]:
+          - img "Politically Correct Parables-by-Robert Martin Walker" [ref=e664]
+          - heading "Politically Correct Parables" [level=3] [ref=e665]
+          - generic [ref=e667]:
+            - generic [ref=e668]:
+              - text: 185 gm
+              - paragraph [ref=e669]:
+                - text: ₹ 125
+                - generic [ref=e670]: ₹ 350
+            - link "Add to Cart" [ref=e672]:
+              - /url: javascript:;
+              - img "Add to Cart" [ref=e673]
+        - generic [ref=e676] [cursor=pointer]:
+          - img "Things to Do Now That You're 50 -by-Robyn Neild" [ref=e678]
+          - heading "Things to Do Now That You're 50" [level=3] [ref=e679]
+          - generic [ref=e681]:
+            - generic [ref=e682]:
+              - text: 345 gm
+              - paragraph [ref=e683]:
+                - text: ₹ 199
+                - generic [ref=e684]: ₹ 450
+            - link "Add to Cart" [ref=e686]:
+              - /url: javascript:;
+              - img "Add to Cart" [ref=e687]
+        - generic [ref=e690] [cursor=pointer]:
+          - 'img "We All Went on Safari: A Counting Journey through Tanzania-by-Laurie Krebs" [ref=e692]'
+          - 'heading "We All Went on Safari: A Counting Journey through Tanzania" [level=3] [ref=e693]'
+          - generic [ref=e695]:
+            - generic [ref=e696]:
+              - text: 160 gm
+              - paragraph [ref=e697]:
+                - text: ₹ 125
+                - generic [ref=e698]: ₹ 399
+            - link "Add to Cart" [ref=e700]:
+              - /url: javascript:;
+              - img "Add to Cart" [ref=e701]
+        - generic [ref=e704] [cursor=pointer]:
+          - img "Incey Wincey Spider-by-Penny Dann" [ref=e706]
+          - heading "Incey Wincey Spider" [level=3] [ref=e707]
+          - generic [ref=e709]:
+            - generic [ref=e710]:
+              - text: 83 gm
+              - paragraph [ref=e711]:
+                - text: ₹ 75
+                - generic [ref=e712]: ₹ 299
+            - link "Add to Cart" [ref=e714]:
+              - /url: javascript:;
+              - img "Add to Cart" [ref=e715]
+        - generic [ref=e718] [cursor=pointer]:
+          - img "One Hundred Original Sin-Free Recipes -by-Allison Moore" [ref=e720]
+          - heading "One Hundred Original Sin-Free Recipes" [level=3] [ref=e721]
+          - generic [ref=e723]:
+            - generic [ref=e724]:
+              - text: 115 gm
+              - paragraph [ref=e725]:
+                - text: ₹ 99
+                - generic [ref=e726]: ₹ 350
+            - link "Add to Cart" [ref=e728]:
+              - /url: javascript:;
+              - img "Add to Cart" [ref=e729]
+  - text: 
+  - contentinfo [ref=e731]:
+    - generic [ref=e733]:
+      - generic [ref=e734]:
+        - heading "Books By Kilo" [level=1] [ref=e735]
+        - heading "Spend less. Read more." [level=2] [ref=e736]:
+          - text: Spend less.
+          - strong [ref=e737]: Read more.
+        - list [ref=e738]:
+          - listitem [ref=e739]:
+            - link "" [ref=e740] [cursor=pointer]:
+              - /url: https://www.facebook.com/booksbykiloindia
+              - generic [ref=e741]: 
+          - listitem [ref=e742]:
+            - link "" [ref=e743] [cursor=pointer]:
+              - /url: https://twitter.com/BooksByKilo
+              - generic [ref=e744]: 
+          - listitem [ref=e745]:
+            - link "" [ref=e746] [cursor=pointer]:
+              - /url: https://in.pinterest.com/bbykilo/
+              - generic [ref=e747]: 
+          - listitem [ref=e748]:
+            - link "" [ref=e749] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/booksbykilo/
+              - generic [ref=e750]: 
+          - listitem [ref=e751]:
+            - link "" [ref=e752] [cursor=pointer]:
+              - /url: https://www.instagram.com/booksbykilo
+              - generic [ref=e753]: 
+          - listitem [ref=e754]:
+            - link "" [ref=e755] [cursor=pointer]:
+              - /url: https://plus.google.com/114197323571277792136
+              - generic [ref=e756]: 
+      - generic [ref=e757]:
+        - heading "Information" [level=4] [ref=e758]
+        - list [ref=e759]:
+          - listitem [ref=e760]:
+            - link "About Us" [ref=e761] [cursor=pointer]:
+              - /url: /about-us
+          - listitem [ref=e762]:
+            - link "Disclaimer" [ref=e763] [cursor=pointer]:
+              - /url: /disclaimer
+          - listitem [ref=e764]:
+            - link "Terms And Conditions" [ref=e765] [cursor=pointer]:
+              - /url: /terms-and-conditions
+          - listitem [ref=e766]:
+            - link "Privacy Policy" [ref=e767] [cursor=pointer]:
+              - /url: /privacy-policy
+          - listitem [ref=e768]:
+            - link "Cancellation Policy" [ref=e769] [cursor=pointer]:
+              - /url: /cancellation-policy
+      - generic [ref=e770]:
+        - heading "Quick Links" [level=4] [ref=e771]
+        - list [ref=e772]:
+          - listitem [ref=e773]:
+            - link "Bulk Purchase" [ref=e774] [cursor=pointer]:
+              - /url: /bulk-purchase
+          - listitem [ref=e775]:
+            - link "Get Franchise" [ref=e776] [cursor=pointer]:
+              - /url: /franchise
+          - listitem [ref=e777]:
+            - link "Rent Library" [ref=e778] [cursor=pointer]:
+              - /url: /rent-a-library
+          - listitem [ref=e779]:
+            - link "Surprise Stack" [ref=e780] [cursor=pointer]:
+              - /url: /surprise-stack
+      - generic [ref=e781]:
+        - heading "customer" [level=4] [ref=e782]
+        - list [ref=e783]:
+          - listitem [ref=e784]:
+            - link "My Orders" [ref=e785] [cursor=pointer]:
+              - /url: /orders
+          - listitem [ref=e786]:
+            - link "Contact Us" [ref=e787] [cursor=pointer]:
+              - /url: /contact-us
+      - generic [ref=e788]:
+        - heading "Support Center" [level=4] [ref=e789]
+        - list [ref=e790]:
+          - listitem [ref=e791]:
+            - link "+91 88286 87287" [ref=e792] [cursor=pointer]:
+              - /url: tel:08828687287
+          - listitem [ref=e793]:
+            - link "support@booksbykilo.in" [ref=e794] [cursor=pointer]:
+              - /url: mailto:support@booksbykilo.in
+          - listitem [ref=e795]:
+            - link "Bulk Purchase" [ref=e796] [cursor=pointer]:
+              - /url: /bulk-purchase
+          - listitem [ref=e797]:
+            - link "FAQ" [ref=e798] [cursor=pointer]:
+              - /url: /faq
+    - separator [ref=e799]
+    - generic [ref=e800]: Books By Kilo. All Right Reserved.
+```
