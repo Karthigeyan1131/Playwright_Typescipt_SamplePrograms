@@ -30,5 +30,5 @@ test.only("validations", async ({ page }) => {
             console.log("Option found")
         }
     } 
-    await expect(trimmedvalue).toContain('Zebra')
+    expect(trimmedvalue).toContain('Zebra')
 })

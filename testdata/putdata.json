@@ -1,0 +1,11 @@
+{
+    "firstname": "karthik",
+    "lastname": "Downey",
+    "totalprice": 1131,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "1998-03-31",
+        "checkout": "1998-08-11"
+    },
+    "additionalneeds": "Anything For Now"
+}
