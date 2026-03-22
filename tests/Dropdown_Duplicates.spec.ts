@@ -18,13 +18,12 @@ test('Validating Duplicates in Dropdown', async ({ page }) => {
         }
     }
 
-    console.log("Duplicate values:",duplicates) 
-    console.log("Non Duplicates:",singleset) 
+    console.log("Duplicate values:", duplicates)
+    console.log("Non Duplicates:", singleset)
 
-    if(duplicates.length>0)
-    {
+    if (duplicates.length > 0) {
         console.log("Duplicates Found")
     }
-    else 
+    else
         console.log("Duplicates not Found")
 })
